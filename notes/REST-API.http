@@ -1,0 +1,27 @@
+@baseUrl = https://57vkrpe7w8.execute-api.us-east-1.amazonaws.com/dev/notes
+
+###
+POST {{baseUrl}}
+Content-Type: application/json
+
+{
+  "id": "100",
+  "title": "My first notes",
+  "body": "Body for the notes"
+}
+
+{}
+
+###
+DELETE {{baseUrl}}/12
+Content-Type: application/json
+
+###
+GET {{baseUrl}}
+Content-Type: application/json
+
+###
+PUT {{baseUrl}}/12
+Content-Type: application/json
+
+{}
